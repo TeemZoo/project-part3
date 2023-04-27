@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Rating</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <logo>
+        <img src="logo.jpg">
+    </logo>
+    <a href="index.html" style="color: black;">Home</a>
+    <a href="ourzoo.html" style="color: black;">our zoo</a>
+    <a href="plan your visit.html" style="color: black;">plan your visit</a>
+    <a href="Book your ticket.html" style="color: black;">Book your ticket</a>
+    <a href="Contact us.html" style="color: black;">Contact us</a>
+    <a href="Rate us.html" style="color: black;">Rate us</a>
+  </nav>
+  <div class="container mt-5">
+    <h1 class="mb-4">Rate Our Website</h1>
+    <p>How would you rate our website?</p>
+    <div class="rating">
+      <form action="https://httpbin.org/get" method="get">
+        <input type="radio" name="rating" value="5" id="5">
+        <label for="5"><i class="fa fa-star"></i> 5</label>
+        <input type="radio" name="rating" value="4" id="4">
+        <label for="4"><i class="fa fa-star"></i> 4</label>
+        <input type="radio" name="rating" value="3" id="3">
+        <label for="3"><i class="fa fa-star"></i> 3</label>
+        <input type="radio" name="rating" value="2" id="2">
+        <label for="2"><i class="fa fa-star"></i> 2</label>
+        <input type="radio" name="rating" value="1" id="1">
+        <label for="1"><i class="fa fa-star"></i> 1</label>
+        <div class="form-group">
+            <label for="compliments">Do you have any other compliments or feedback?</label>
+            <textarea class="form-control" id="compliments" name="compliments" rows="3"></textarea>
+          </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </form>
+    </div>
+  </div>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhz"></script>
+  <footer>
+    <p>&copy; 2023 ZooWebsite.com. All rights reserved.</p>
+    <p>123 Main Street, muscat oman 12345 | Phone: (555) 123-4567</p>
+    <small>Last updated: April 1, 2023</small>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<html>
+<head>
+  <title>plan your visit</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <!-- Include the Bootstrap CSS file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/css/bootstrap.min.css">
+</head>
+</head>
+<body>
+  <nav>
+    <logo>
+        <img src="logo.jpg">
+    </logo>
+    <a href="index.html" style="color: black;">Home</a>
+    <a href="ourzoo.html" style="color: black;">our zoo</a>
+    <a href="plan your visit.html" style="color: black;">plan your visit</a>
+    <a href="Book your ticket.html" style="color: black;">Book your ticket</a>
+    <a href="Contact us.html" style="color: black;">Contact us</a>
+    <a href="Rate us.html" style="color: black;">Rate us</a>
+  </nav>
+  <div class="container">
+    <h1>Zoo Activities</h1>
+    <form action="https://httpbin.org/get" method="get">
+
+        <!-- First set of activity choices -->
+        <div class="card">
+          <div class="card-header">Animal Exhibits</div>
+          <div class="card-body">
+            <p>Please select the exhibits you would like to visit:</p>
+            <div class="list-group">
+              <label class="list-group-item">
+                <input type="checkbox" name="exhibits[]" value="Lions" class="form-check-input">
+                Lions
+              </label>
+              <label class="list-group-item">
+                <input type="checkbox" name="exhibits[]" value="Elephants" class="form-check-input">
+                Elephants
+              </label>
+              <label class="list-group-item">
+                <input type="checkbox" name="exhibits[]" value="Giraffes" class="form-check-input">
+                Giraffes
+              </label>
+              <label class="list-group-item">
+                <input type="checkbox" name="exhibits[]" value="Monkeys" class="form-check-input">
+                Monkeys
+              </label>
+              <label class="list-group-item">
+                <input type="checkbox" name="exhibits[]" value="Penguins" class="form-check-input">
+                Penguins
+              </label>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Second set of activity choices -->
+        <div class="card mt-3">
+          <div class="card-header">Special Activities</div>
+          <div class="card-body">
+            <p>Please select the special activities you would like to do:</p>
+            <div class="list-group">
+              <label class="list-group-item">
+                <input type="checkbox" name="activities[]" value="Feed the Animals" class="form-check-input">
+                Feed the Animals
+              </label>
+              <label class="list-group-item">
+                <input type="checkbox" name="activities[]" value="Play with the Monkeys" class="form-check-input">
+                Play with the Monkeys
+              </label>
+              <label class="list-group-item">
+                <input type="checkbox" name="activities[]" value="Swim with the Dolphins" class="form-check-input">
+                Swim with the Dolphins
+              </label>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Third set of activity choices -->
+        <div class="card mt-3">
+          <div class="card-header">Interactive Experiences</div>
+          <div class="card-body">
+            <p>Please select the interactive experiences you would like to participate in:</p>
+            <div class="list-group">
+              <label class="list-group-item">
+                <input type="checkbox" name="experiences[]" value="Behind-the-Scenes Tour" class="form-check-input">
+                Behind-the-Scenes Tour
+              </label>
+              <label class="list-group-item">
+                <input type="checkbox" name="experiences[]" value="Animal Encounter" class="form-check-input">
+                Animal Encounter
+              </label>
+              <label class="list-group-item">
+                <input type="checkbox" name="experiences[]" value="Keeper Talk" class="form-check-input">
+                Keeper Talk
+              </label>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Submit button for the form -->
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      
+      </form>
+<br>      
+<footer>
+    <p>&copy; 2023 ZooWebsite.com. All rights reserved.</p>
+    <p>123 Main Street, muscat oman 12345 | Phone: (555) 123-4567</p>
+    <small>Last updated: April 1, 2023</small>
+  
+  </footer>
+</body>
+</html>
+
+
+
+

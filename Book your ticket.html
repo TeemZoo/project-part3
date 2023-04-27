@@ -1,0 +1,75 @@
+<html>
+<head>
+  <title>Book your ticket</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/XvoArmG21ZeQFcw" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <logo>
+        <img src="logo.jpg">
+    </logo>
+    <a href="index.html" style="color: black;">Home</a>
+    <a href="ourzoo.html" style="color: black;">our zoo</a>
+    <a href="plan your visit.html" style="color: black;">plan your visit</a>
+    <a href="Book your ticket.html" style="color: black;">Book your ticket</a>
+    <a href="Contact us.html" style="color: black;">Contact us</a>
+    <a href="Rate us.html" style="color: black;">Rate us</a>
+  </nav>
+  <form action="https://httpbin.org/get" method="get">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="gender">Gender:</label><br>
+      <div class="form-check form-check-inline">
+        <input type="radio" class="form-check-input" id="male" name="gender" value="male">
+        <label class="form-check-label" for="male">Male</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input type="radio" class="form-check-input" id="female" name="gender" value="female">
+        <label class="form-check-label" for="female">Female</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="ticket-price">Ticket Price:</label>
+      <select class="form-control" id="ticket-price" name="ticket-price">
+        <option value="10.00">Adult - OR10.00</option>
+        <option value="5.00">Child - OR5.00</option>
+        <option value="7.50">Senior - OR7.50</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea class="form-control" id="message" name="message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  
+  <footer>
+    <p>&copy; 2023 ZooWebsite.com. All rights reserved.</p>
+    <p>123 Main Street, muscat oman 12345 | Phone: (555) 123-4567</p>
+    <small>Last updated: April 1, 2023</small>
+  
+  </footer>
+</body>
+</html>
+
+
+
+
